@@ -19,7 +19,7 @@ const server = http.createServer((request, response) => {
     console.log('Server responded');
 });
 
-server.listen(port,host, (error) => {  
+server.listen(port, host, (error) => {  
     if (error) {
         throw Error(`Error: ${error}`);
     }
