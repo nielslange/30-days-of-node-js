@@ -1,9 +1,9 @@
 'use strict';
 
-const http = require('http');
-const host = '127.0.0.1';
-const port = 3000;
-const fs = require('fs');
+const http  = require('http');
+const host  = '127.0.0.1';
+const port  = 3000;
+const fs    = require('fs');
 
 const server = http.createServer((request, response) => {
     console.log('Server started');
@@ -23,7 +23,7 @@ const server = http.createServer((request, response) => {
 
 server.listen(port, host, (error) => {
     if (error) {
-        throw Error(`Error: ${error}`);
+        throw error;
     }
 
     console.log(`Server is listening on ${host}:${port}`);
