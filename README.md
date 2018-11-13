@@ -5,14 +5,14 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 ## Table of content
 
 - [Day 01 - All about servers](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2001%20-%20All%20about%20servers)
-- Day 2 - File System
-- Day 3 - Regular expressions
-- Day 4 - Console module
-- Day 5 - All about errors
-- Day 6 - Array methods
-- Day 7 - All about NPM
-- Day 8 - Publishing package on NPM
-- Day 9 - Hashing and HMAC
+- Day 02 - File System
+- Day 03 - Regular expressions
+- Day 04 - Console module
+- Day 05 - All about errors
+- Day 06 - Array methods
+- Day 07 - All about NPM
+- Day 08 - Publishing package on NPM
+- Day 09 - Hashing and HMAC
 - Day 10 - Encryption & Decryption
 - Day 11 - Express Framework
 - Day 12 - CRUD in MongoDB
