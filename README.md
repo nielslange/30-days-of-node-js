@@ -6,7 +6,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 
 - [Day 01 - All about servers](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2001%20-%20All%20about%20servers)
 - [Day 02 - File System](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2002%20-%20File%20System)
-- Day 03 - Regular expressions
+- [Day 03 - Regular expressions](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2003%20-%20Regular%20expressions)
 - Day 04 - Console module
 - Day 05 - All about errors
 - Day 06 - Array methods
