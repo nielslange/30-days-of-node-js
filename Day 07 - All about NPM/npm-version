@@ -1,0 +1,5 @@
+# Option I
+npm -v
+
+# Option II
+npm --version
