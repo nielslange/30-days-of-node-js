@@ -11,7 +11,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 - [Day 05 - All about errors](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2005%20-%20All%20about%20errors)
 - [Day 06 - Array methods](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2006%20-%20Array%20methods)
 - [Day 07 - All about NPM](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2007%20-%20All%20about%20NPM)
-- Day 08 - Publishing package on NPM
+- [Day 08 - Publishing package on NPM](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2008%20-%20Publishing%20package%20on%20NPM)
 - Day 09 - Hashing and HMAC
 - Day 10 - Encryption & Decryption
 - Day 11 - Express Framework
