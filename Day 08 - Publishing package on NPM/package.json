@@ -1,19 +1,18 @@
 {
   "name": "current-week",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "description": "Shows the number, the date of the first and the date of the lasdt day or the current week.",
   "main": "current-week.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "week",
-    "number",
     "current",
     "week",
     "number",
-    "current",
-    "week"
+    "day",
+    "first",
+    "last"
   ],
   "author": "Niels Lange <info@nielslange.de>",
   "license": "ISC"
