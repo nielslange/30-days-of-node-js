@@ -8,7 +8,7 @@ const formatDate = function(date) {
     return day + '.' + month + '.';
 }
 
-const getWeekNumber = function() {
+module.exports.getWeekNumber = function() {
     const date    = new Date();
     const day     = date.getUTCDay() || 7;
     date.setUTCDate(date.getUTCDate() + 4 - day);
@@ -17,7 +17,7 @@ const getWeekNumber = function() {
     return Math.ceil((((date - year) / 86400000) + 1)/7);
 };
 
-const getFirstWeekday = function() {
+module.exports.getFirstWeekDay = function() {
     const date        = new Date();
     const weekstart   = date.getDate() - date.getDay() + 1;
     const monday      = new Date(date.setDate(weekstart));  
@@ -25,18 +25,11 @@ const getFirstWeekday = function() {
     return formatDate(date);
 }
 
-const getLastWeekday = function() {
+module.exports.getLastWeekDay = function() {
     const date        = new Date();
     const weekstart   = date.getDate() - date.getDay() + 1;
     const weekend     = weekstart + 6;
     const sunday      = new Date(date.setDate(weekend));
     
     return formatDate(sunday);
-}
-
-module.export = {
-    formatDate : formatDate,
-    getWeekNumber : getWeekNumber,
-    getFirstWeekday : getFirstWeekday,
-    getLastWeekday : getLastWeekday
 }
