@@ -1,4 +1,4 @@
-# week [![NPM version](https://img.shields.io/npm/v/current-week.svg?style=flat)](https://www.npmjs.com/package/current-week) [![NPM monthly downloads](https://img.shields.io/npm/dm/current-week.svg?style=flat)](https://npmjs.org/package/current-week) [![NPM total downloads](https://img.shields.io/npm/dt/current-week.svg?style=flat)](https://npmjs.org/package/current-week)
+# Current week [![NPM version](https://img.shields.io/npm/v/current-week.svg?style=flat)](https://www.npmjs.com/package/current-week) [![NPM monthly downloads](https://img.shields.io/npm/dm/current-week.svg?style=flat)](https://npmjs.org/package/current-week) [![NPM total downloads](https://img.shields.io/npm/dt/current-week.svg?style=flat)](https://npmjs.org/package/current-week) [![MIT License][license-image]][license-url] 
 
 > Get the current week number.
 
