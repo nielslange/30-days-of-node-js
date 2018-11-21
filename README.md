@@ -13,7 +13,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 - [Day 07 - All about NPM](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2007%20-%20All%20about%20NPM)
 - [Day 08 - Publishing package on NPM](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2008%20-%20Publishing%20package%20on%20NPM)
 - [Day 09 - Hashing and HMAC](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2009%20-%20Hashing%20and%20HMAC)
-- Day 10 - Encryption & Decryption
+- [Day 10 - Encryption & Decryption](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2010%20-%20Encryption%20%26%20Decryption)
 - Day 11 - Express Framework
 - Day 12 - CRUD in MongoDB
 - Day 13 - Sign Up form
