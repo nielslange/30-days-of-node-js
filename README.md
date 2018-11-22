@@ -14,7 +14,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 - [Day 08 - Publishing package on NPM](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2008%20-%20Publishing%20package%20on%20NPM)
 - [Day 09 - Hashing and HMAC](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2009%20-%20Hashing%20and%20HMAC)
 - [Day 10 - Encryption & Decryption](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2010%20-%20Encryption%20%26%20Decryption)
-- Day 11 - Express Framework
+- [Day 11 - Express Framework](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2011%20-%20Express%20Framework)
 - Day 12 - CRUD in MongoDB
 - Day 13 - Sign Up form
 - Day 14 - Intro to socket.io
