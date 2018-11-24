@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Signup Form | nodejsera </title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="_style.css">
+</head>
+<body>
+	<br><br><br>
+	<div class="container" >
+		<div class="row">
+			<div class="col-md-6 offset-md-3 main">
+				<h1> Signup form </h1>
+				<form action="/sign_up" method="post">
+					<div class="form-group">
+						<input class="form-control" type="text" name="name" id="name" placeholder="Enter your username" required>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="password" name="password" id="password"  placeholder="Enter your password" required>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="email" name="email" id="email" placeholder="Enter your email address" required>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" name="phone" id="phone"  placeholder="Enter your phone number" required>
+					</div>
+					<div class="form-group">
+						<input class="form-control btn btn-primary" type="submit" id="submitDetails"  name="submitDetails" value="Submit Your Details">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>  
+</body>
+</html>
