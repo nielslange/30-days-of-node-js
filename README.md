@@ -16,7 +16,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 - [Day 10 - Encryption & Decryption](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2010%20-%20Encryption%20%26%20Decryption)
 - [Day 11 - Express Framework](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2011%20-%20Express%20Framework)
 - [Day 12 - CRUD in MongoDB](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2012%20-%20CRUD%20in%20MongoDB)
-- Day 13 - Sign Up form
+- [Day 13 - Sign Up form](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2013%20-%20Sign%20Up%20form)
 - Day 14 - Intro to socket.io
 - Day 15 - All about streams
 - Day 16 - Zlib Module
