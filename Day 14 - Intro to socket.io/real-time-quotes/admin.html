@@ -14,7 +14,7 @@
             <textarea class="form-control" id="content" rows="5"></textarea>
         </div>
         <div class="form-group">
-            <button type="submit" id="add" class="btn btn-primary">Add your quote</button>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
         </div>
     </div>
 
@@ -25,10 +25,10 @@
             console.log(data); 
         });
         
-        $('#add').click(() => {
+        $('#submit').click(() => {
             const data = $('#content').val()
             console.log(data); 
-            socket.emit('new', { quote: data });
+            socket.emit('submit', { quote: data });
             $('#content').val('');
         });
 	});
