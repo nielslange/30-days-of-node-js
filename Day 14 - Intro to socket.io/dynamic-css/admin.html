@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<title>Dynamic CSS | Admin Panel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head> 
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Pick a color</h1> 
+        <div class="form-group">
+            <input id="color" type="color">
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+	<script>
+	$('document').ready(() => {
+        const socket = io.connect('http://localhost:3000');
+        socket.on('welcome', (data) => {
+            console.log(data); 
+        });
+        
+        $('#submit').click(() => {
+            const data = $('#color').val()
+            console.log(data); 
+            socket.emit('submit', { color: data });
+            $('#content').val('');
+        });
+	});
+    </script>
+    
+</body>
+</html>
