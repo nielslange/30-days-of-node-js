@@ -30,7 +30,7 @@
             console.log(data);
             socket.emit('my other event', { my: 'data' });
         });
-        socket.on('next' , (data) => {
+        socket.on('quote', (data) => {
             console.log(data); 
             $('#quotes').append("<blockquote>" + data.data.quote + "</blockquote>")
         });
