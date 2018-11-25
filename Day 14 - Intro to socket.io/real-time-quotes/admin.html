@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<title>Real Time Quotes | Admin Panel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head> 
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Add quote using <code>Sockets</code> and <code>Node.js</code></h1> 
+        <div class="form-group">
+            <textarea class="form-control" id="content" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="add" class="btn btn-primary">Add your quote</button>
+        </div>
+    </div>
+
+	<script>
+	$('document').ready(() => {
+        const socket = io.connect('http://localhost:3000');
+        socket.on('welcome', (data) => {
+            console.log(data); 
+        });
+        
+        $('#add').click(() => {
+            const data = $('#content').val()
+            console.log(data); 
+            socket.emit('new', { quote: data });
+            $('#content').val('');
+        });
+	});
+    </script>
+    
+</body>
+</html>
