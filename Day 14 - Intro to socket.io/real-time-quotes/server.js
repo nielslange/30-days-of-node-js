@@ -17,8 +17,8 @@ app.get('/admin' , (req,res) => {
 
 io.on('connection', (socket) => {
     socket.emit('welcome', { data: 'welcome' });
-    socket.on('new', (data) => {   
+    socket.on('submit', (data) => {   
         console.log(`✅  Quote "${data.quote}" addedd successfully!`);
-        io.sockets.emit('next', { data : data });
+        io.sockets.emit('quote', { data : data });
     });
 });
