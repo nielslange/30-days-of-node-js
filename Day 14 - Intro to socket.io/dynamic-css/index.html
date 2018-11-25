@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>Dynamic CSS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+	
+	<style>	
+    blockquote {
+        background: #f8f8f8;
+        border-left: 4px solid #ccc;
+        padding: 0 5px;
+    }
+    </style>
+</head>
+<body> 
+
+    <div class="container">
+        <h1 class="mt-5">Dynamic CSS</h1> 
+        <h2>Changing CSS Dynamically using Socket.io</h2>
+        <p style="background-color:#00aaff;">A Normal </p>
+        <p style="background-color:#aaff00;">text paragraph in which </p>
+        <p style="background-color:#aa00ff;">we are using sockets to change CSS</p>
+        <p>dynamically from the admin panel</p>
+        <div>But it will only change the CSS of content which is inside <code> p (paragraph) </code> tag.</div>
+    </div>
+
+	<script>
+    $('document').ready(() => {
+        const socket = io.connect('http://localhost:3000');
+        socket.on('news', (data) => {
+            console.log(data);
+            socket.emit('my other event', { my: 'data' });
+        });
+        socket.on('color' , (data) => {
+            console.log(data); 
+            const key = 'background-color';
+            const value = data.data.color;
+            $('p').css(key, value);
+        });
+    });
+    </script>
+    
+</body>
+</html>
