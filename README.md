@@ -19,7 +19,7 @@ This is an updated version of the [30 Days of Node](https://github.com/nodejsera
 - [Day 13 - Sign Up form](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2013%20-%20Sign%20Up%20form)
 - [Day 14 - Intro to socket.io](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2014%20-%20Intro%20to%20socket.io)
 - [Day 15 - All about streams](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2015%20-%20All%20about%20streams)
-- Day 16 - Zlib Module
+- [Day 16 - Zlib Module](https://github.com/nielslange/30-days-of-node-js/tree/master/Day%2016%20-%20Zlib%20Module)
 - Day 17 - CRUD in MySQL
 - Day 18 - Concepts of callbacks
 - Day 19 - Query String
